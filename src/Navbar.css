@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.free
+{
+    padding: 10px 30px;
+    width: 100%;
+    background: #010f1c;
+    display: flex;
+}
+.free .icon
+{
+    color: #f3b123;
+    font-size: 32px;
+}
+.free p
+{
+    margin-left: 10px;
+    color: #f6f7f9;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main_header
+{
+    padding: 30px 40px;
+    width: 100%;
+    border-bottom: 1px solid #fafafa;
+    
+}
+.main_header .container
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main_header .container .search_box
+{
+    margin-right: 30px;
+}
+.main_header .container .search_box input
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #6e086c51;
+    width: 300px;
+    color: #010f1c;
+    border-radius: 20px 0px 0px 20px;
+
+}
+.main_header .container .search_box button
+{
+    border: 3px solid #6e086c;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #6e086c;
+    color: #ecf2f7;
+    border-radius: 0px 20px 20px 0px;
+}
+.main_header .container .icon
+{
+    display: flex;
+    margin-right: 50px;
+    color: white;
+}
+.main_header .container .icon .account
+{
+    display: flex;
+    margin-right: 30px;
+}
+
+.main_header .container .icon .account .user_icon
+{
+    margin-right: 10px;
+    font-size: 22px;
+    
+    cursor: pointer;
+}
+
+.main_header .container .icon .account p
+{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.main_header .container .icon .second_icon
+{
+    display: flex;
+}
+
+.main_header .container .icon .second_icon p{
+    margin-right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+}
+@media screen and (max-width:480px){
+    .free{
+        width: 100%;
+     
+    }
+    .main_header{
+        max-width: 480px;
+    }
+    .container{
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        transform: scale(1);
+        margin-left: 3rem;
+    }
+    .search_box{
+        transform: scale(0.9);
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5rem;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+    }
+    .account{
+        margin-top: 1rem;
+        margin-left: 10px;
+    }
+    .second_icon{
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+
+
+}
