@@ -54,7 +54,7 @@ const Items = ({product,setproduct,detail,view,close,setClose}) => {
       
        
         <div className="products">
-        <h2>Our Products</h2>
+        <h2 >Our Products</h2>
         
             <div className="container">
                 <div className="filter">
@@ -79,6 +79,7 @@ const Items = ({product,setproduct,detail,view,close,setClose}) => {
                                 return(
                                     <>
                                     <div className='box' key={curElm.id}>
+                                          <h3>{curElm.Title}</h3>
                                         <div className='img_box'>
                                           <img src={curElm.Img} alt={curElm.Title}></img>
                                           <div className='icon'>
@@ -89,8 +90,11 @@ const Items = ({product,setproduct,detail,view,close,setClose}) => {
                                         </div>
                                         <div className='detail'>
                                           <p>{curElm.Cat}</p>
-                                          <h3>{curElm.Title}</h3>
+                                          <br />
+                                          <h5>{curElm.Details}</h5>
+                                          <br />
                                           <h4>${curElm.Price}</h4>
+                                          <br />
                                           <AiFillStar/>
                                           <AiFillStar/>
                                           <AiFillStar/>

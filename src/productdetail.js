@@ -6,7 +6,7 @@ const Productdetail =
         Cat: 'Electronics',
         Price: '198',
         Img: './img/p11.jpg',
-        Details:'Best Stand in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt.'
     },
  
     {
@@ -15,7 +15,7 @@ const Productdetail =
         Cat: 'Smart Watch',
         Price: '168',
         Img: './img/tp2.jpg',
-        Details:'Best Smart Watch in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
         
     },
     {
@@ -24,7 +24,7 @@ const Productdetail =
         Cat: 'Headphone',
         Price: '49',
         Img: './img/tp3.jpg',
-        Details:'Best Headphones in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:13,
@@ -32,7 +32,7 @@ const Productdetail =
         Cat: 'Camera',
         Price: '1049',
         Img: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEQEhUSEBIWFRIXFREXFRUSFhgXERYWFRMWFxUVGBMYHSggGBslGxUVIjEhJSkrLi4uFx8zODMsNygtLi0BCgoKDg0OGA8PFS0dFR0tKy0tLS0tLS0tLS0tLSstLS0tLS0rLSsrLS0tLS0tLS0tLS0tLS0rLTctLS0rLS0tN//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcDBAUCAQj/xABKEAABAgMEBAgIDAUEAwEAAAABAAIDBBEFEiExBkFRcQcTIjJhgZGhF0JScrHB0vAUIzM0NVRikqKjtNEkQ1OCgxVjsuFz4/El/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAbEQEBAAIDAQAAAAAAAAAAAAAAAQIRAzFREv/aAAwDAQACEQMRAD8AvFERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAWGamocJt6K9rG+U9wa3tOCzKo+HV5Maz2HFhM04tORc3iAD1Bzu0oJDP8KclCiuhtZEihrrvGQnQDDJ1kAxQ4jpu0XSbp5JnxvxM9Tl+eptgE3QAUrlTBdiM0VyHYroWza3CJDhuHFuhhhwBeauD7riLwDhyTQCoqanZisVj6e8bCD48aDDiFzwWCgoADdNHEnFUvaoxh4eNs3LuwhVwbtvatjC7b9lBNbN4Tpl7i2IyXbStCQ9oNDQcovOJ6BqUpHCJJbT96H7SiI0GdQHj24tr8l9kHPjOla8XQtw/nN1/wAr/wBigm3hFkfKP3oftp4RZHyj96H7ar+f0VMJge6MCCWj5Iil7pvlRbjDs9KounwiyPlH70P208Isj5R7Yftql2wnuBLW1pnjT3zWs8kZhNC8fCNI+Ue1ntJ4RZHyj2s9pUfKSsWO8Q4MNz3nU30k1oB0lTOzeDZ5AdNRgz7ELF3W92A6mnegn3hFkfKP3oftr54RZHyj2w/bUfgaF2dDzhOedr3PPoc0dyzO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',
-        Details:'Best Camera in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:4,
@@ -40,7 +40,7 @@ const Productdetail =
         Cat: 'Camera',
         Price: '1049',
         Img: './img/tp4.jpg',
-        Details:'Best Camera in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:5,
@@ -48,7 +48,7 @@ const Productdetail =
         Cat: 'Powerbank',
         Price: '49',
         Img: './img/tp5.jpg',
-        Details:'Best PowerBank in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:6,
@@ -56,7 +56,7 @@ const Productdetail =
         Cat: 'Electronics',
         Price: '156',
         Img: './img/tp6.png',
-        Details:'Best CPU Cooler in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:7,
@@ -64,7 +64,7 @@ const Productdetail =
         Cat: 'Gaming',
         Price: '2098',
         Img: './img/tp7.jpg',
-        Details:'Best Playstation in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:8,
@@ -72,7 +72,7 @@ const Productdetail =
         Cat: 'Electronics',
         Price: '386',
         Img: './img/tp8.jpg',
-        Details:'Best PowerBank in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:9,
@@ -80,7 +80,7 @@ const Productdetail =
         Cat: 'Tablet',
         Price: '693',
         Img: './img/p9.jpg',
-        Details:'Best Tablet in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
     {
         id:10,
@@ -88,7 +88,7 @@ const Productdetail =
         Cat: 'Gaming',
         Price: '5036',
         Img: './img/p10.jpg',
-        Details:'Best Playstation in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
  
     {
@@ -97,15 +97,15 @@ const Productdetail =
         Cat: 'Tablet',
         Price: '723',
         Img: 'data:image/jpeg;base64,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',
-        Details:'Best Tablet in the market with great specification'
+        Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
     },
-    {
-        id:12,
-        Title:"Echo Dot smart speaker",
-        Cat: 'Electronics',
-        Price: '793',
-        Img: './img/p12.jpg',
-        Details:'Best Speaker in the market with great specification'
-    },
+    // {
+    //     id:12,
+    //     Title:"Echo Dot smart speaker",
+    //     Cat: 'Electronics',
+    //     Price: '793',
+    //     Img: './img/p12.jpg',
+    //     Details:'lorem ipsum dolor sit amet, consectetur adip fgymnt'
+    // },
 ]
 export default Productdetail;
