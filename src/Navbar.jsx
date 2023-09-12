@@ -13,7 +13,7 @@ const Navbar = ({searchbtn}) => {
       <div className="main_header">
         <div className="container">
             <div className="logo">
-                <h1 style={{color:"white", fontFamily:"cursive"}}>Web-Shop</h1>
+                <h1 style={{color:"white", fontFamily:"cursive"}}>Shop-Cart</h1>
             </div>
             <div className="search_box">
                 <input type="text" value={search} placeholder='Search your product here...' autoComplete='off' onChange={(e)=>setsearch(e.target.value)} />
